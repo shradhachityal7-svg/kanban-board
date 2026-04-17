@@ -1,1 +1,26 @@
 
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.column {
+  width: 30%;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.task {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: grab;
+}
